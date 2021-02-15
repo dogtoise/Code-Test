@@ -3,6 +3,8 @@
   <ItemGroup>
     <ClCompile Include="Arrays101\DuplicateZeros.cpp" />
     <ClCompile Include="Arrays101\MergeSortedArray.cpp" />
+    <ClCompile Include="Arrays101\RemoveElement.cpp" />
+    <ClCompile Include="Arrays101\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
