@@ -5,6 +5,10 @@
     <ClCompile Include="Arrays101\MergeSortedArray.cpp" />
     <ClCompile Include="Arrays101\RemoveElement.cpp" />
     <ClCompile Include="Arrays101\main.cpp" />
+    <ClCompile Include="Arrays101\ValidMountainArray.cpp" />
+    <ClCompile Include="Arrays101\Check_If_N_and_Its_Double_Exist.cpp" />
+    <ClCompile Include="Arrays101\ReplaceElements.cpp" />
+    <ClCompile Include="Arrays101\RemoveDuplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
