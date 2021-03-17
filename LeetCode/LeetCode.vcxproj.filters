@@ -9,6 +9,7 @@
     <ClCompile Include="Arrays101\Check_If_N_and_Its_Double_Exist.cpp" />
     <ClCompile Include="Arrays101\ReplaceElements.cpp" />
     <ClCompile Include="Arrays101\RemoveDuplication.cpp" />
+    <ClCompile Include="Arrays101\MoveZero.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
