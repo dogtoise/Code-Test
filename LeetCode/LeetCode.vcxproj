@@ -22,13 +22,13 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{8CB004A8-8763-4AC4-9CBD-BADCF181B66C}</ProjectGuid>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -132,6 +132,7 @@
     <ClCompile Include="Arrays101\RemoveElement.cpp" />
     <ClCompile Include="Arrays101\main.cpp" />
     <ClCompile Include="Arrays101\ReplaceElements.cpp" />
+    <ClCompile Include="Arrays101\SortArrayByParity.cpp" />
     <ClCompile Include="Arrays101\ValidMountainArray.cpp" />
   </ItemGroup>
   <ItemGroup>
