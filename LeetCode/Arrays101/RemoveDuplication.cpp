@@ -8,17 +8,19 @@ Do not allocate extra space for another array, you must do this by modifying the
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
-		if (nums.size() == 0) return 0;
-		int resultIndex = 0;
+		if (nums.size() == 0)
+			return 0;
+		vector<int> temp;
+		temp.push_back(nums[0]);
+
 		for (int i = 1; i < nums.size(); i++)
 		{
-			if (nums[resultIndex] != nums[i])
+			if (temp[temp.size() - 1] != nums[i])
 			{
-				resultIndex++;
-				nums[resultIndex] = nums[i];
+				temp.push_back(nums[i]);
 			}
 		}
-
-		return resultIndex + 1;
+		nums = temp;
+		return temp.size();
 	}
 };

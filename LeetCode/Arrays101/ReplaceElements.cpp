@@ -11,22 +11,24 @@ class Solution {
 public:
 
 	vector<int> replaceElements(vector<int>& arr) {
-		int max;
-
-		max = arr[arr.size() - 1];
-		arr[arr.size() - 1] = -1;
-		for (int i = arr.size() - 2; i >= 0; i--)
+		if (arr.size() == 1)
 		{
-			if (arr[i] > max)
-			{
-				int temp = arr[i];
-				arr[i] = max;
-				max = temp;
-			}
-			else
-				arr[i] = max;
+			arr[0] = -1;
+			return arr;
 		}
 
+		int max = arr[arr.size() - 1];
+
+		for (int i = arr.size() - 1; i >= 0; i--)
+		{
+			int temp = max;
+			if (max <= arr[i])
+			{
+				max = arr[i];
+			}
+			arr[i] = temp;
+		}
+		arr[arr.size() - 1] = -1;
 
 		return arr;
 	}
